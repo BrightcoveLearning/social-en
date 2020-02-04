@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- remember to remove the following line when the site is ready to go live -->
   <!-- <meta name="robots" content="noindex" /> -->
-  <title>404 - Page Not Found</title>
+  <title>Overview: Social API</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -86,7 +86,9 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       
       
       
-      <li class="breadcrumb-item active" aria-current="page">404 - Page Not Found</li>
+      <li class="breadcrumb-item"><a href="/develop/">Developers</a></li>
+      
+      <li class="breadcrumb-item active" aria-current="page">Overview: Social API</li>
     </ol>
   </nav>
 </header>
@@ -211,9 +213,44 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 </div>
 
 <article class="bcls-article">
-  <h1>404 - Page Not Found</h1>
-  <p>Sorry, the page you requested does not exist. Try going to <a href="/">Home page</a> and navigating to it or searching for it.</p>
-  <p>For additional help, <a href="mailto:training@brightcove.com">email us</a>.</p>
+  <h1>Overview: Social API</h1>
+  <summary>This topic provides an overview of the Social API.</summary>
+  <section class="bcls-section">
+    <h2 id="Introduction">Introduction</h2>
+    <p>The Social API allows to get the social sharing status and history for you videos. It is mainly intended to help with CMS integrations, to allow your users to view this information in your own CMS system.</p>
+    <p>For full details of requests, see the <a href="https://docs.brightcove.com/social-api/v1/doc/index.html">API reference</a>.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="base_url">Base URL</h2>
+    <p>The base URL for the API is:</p>
+    <pre>
+  <code class="language-http notranslate">https://edge.social.api.brightcove.com/v1</code></pre>
+  </section>
+  <section class="bcls-section">
+    <h2 id="authentication">Authentication</h2>
+    <p>Authentication for requests requires an <span class="”notranslate”">Authorization header</span> :</p>
+    <pre class="line-numbers">
+        <code class="language-http notranslate">Authorization: Bearer {access_token}</code></pre>
+    <p>The <code class="notranslate">access_token</code> is a temporary OAuth2 access token that must be obtained from the <span class="”notranslate”">Brightcove OAuth</span> service. For details on how to obtain client credentials and use them to retrieve access tokens, see the <a href="/node/17928">Brightcove OAuth Overview</a>.</p>
+    <h3>Operations</h3>
+    <p>When you request client credentials, you will need to specify the type of account access or operations that you want. The following is a list of the currently supported operations for the <span class="”notranslate”">Social API</span> :</p>
+    <ul>
+      <li><code class="notranslate">video-cloud/social/status/read</code></li>
+    </ul>
+    <p>Note that while the Social API is in beta, permissions for it are <strong>not</strong> available in the Studio Admin section for Managing API Credentials. Instead, you will have to use the OAuth API to create your credentials. However, Brightcove Learning Services, has created a <a href="/node/18521">simple online tool</a> for doing this.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Summary_of_requests">Summary of requests</h2>
+    <p>In the current version of the API, only <code class="notranslate">GET</code> requests are supported. There are two groups of requests, summarized in the following sections.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="Status_requests">Status requests</h2>
+    <p><a href="https://docs.brightcove.com/social-api/v1/doc/index.html#tag/Status">Status requests</a> return the current social sharing status for videos. You can get the status for all videos in your account, or a specific video.</p>
+  </section>
+  <section class="bcls-section">
+    <h2 id="History_requests">History requests</h2>
+    <p><a href="https://docs.brightcove.com/social-api/v1/doc/index.html#tag/History">History requests</a> return the social sharing history for videos. You can get the history for all videos in your account, or a specific video.</p>
+  </section>
 </article>
 
 <!-- complete bootstrap layout -->
