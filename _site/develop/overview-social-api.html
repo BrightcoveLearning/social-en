@@ -33,7 +33,6 @@
 <select onchange="doGTranslate(this);" style="margin-right: 1rem;">
   <option value="">Select a language</option>
   <option value="en|en">English</option>
-  <option value="en|zh-TW">繁體中文</option>
   <option value="en|fr">Français</option>
   <option value="en|de">Deutsch</option>
   <option value="en|ja">日本語</option>
@@ -202,8 +201,9 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
           
       </nav>
     </div>
-    <div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
-  <!-- bootstrap layout -->
+
+<!-- bootstrap layout -->
+<div class="col-lg-7" style="background-color: white;color: #333333;margin-top: -1em;margin-bottom: -1em;padding-bottom:1em;">
 
 <!-- search bar -->
 <div id="search_bar" class="search-bar">
@@ -231,13 +231,13 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     <p>Authentication for requests requires an <span class="”notranslate”">Authorization header</span> :</p>
     <pre class="line-numbers">
         <code class="language-http notranslate">Authorization: Bearer {access_token}</code></pre>
-    <p>The <code class="notranslate">access_token</code> is a temporary OAuth2 access token that must be obtained from the <span class="”notranslate”">Brightcove OAuth</span> service. For details on how to obtain client credentials and use them to retrieve access tokens, see the <a href="/http://support.brightcove.com/overview-oauth-api-v4">Brightcove OAuth Overview</a>.</p>
+    <p>The <code class="notranslate">access_token</code> is a temporary OAuth2 access token that must be obtained from the <span class="”notranslate”">Brightcove OAuth</span> service. For details on how to obtain client credentials and use them to retrieve access tokens, see the <a href="https://apis.support.brightcove.com/oauth/getting-started/overview-oauth-api-v4.html">Brightcove OAuth Overview</a> topic.</p>
     <h3>Operations</h3>
     <p>When you request client credentials, you will need to specify the type of account access or operations that you want. The following is a list of the currently supported operations for the <span class="”notranslate”">Social API</span> :</p>
     <ul>
       <li><code class="notranslate">video-cloud/social/status/read</code></li>
     </ul>
-    <p>Note that while the Social API is in beta, permissions for it are <strong>not</strong> available in the Studio Admin section for Managing API Credentials. Instead, you will have to use the OAuth API to create your credentials. However, Brightcove Learning Services, has created a <a href="http://support.brightcove.com/oauth-api-sample-create-client-credentials">simple online tool</a> for doing this.</p>
+    <p>Note that while the Social API is in beta, permissions for it are <strong>not</strong> available in the Studio Admin section for Managing API Credentials. Instead, you will have to use the OAuth API to create your credentials. However, Brightcove Learning Services, has created a <a href="https://apis.support.brightcove.com/oauth/code-samples/oauth-api-sample-create-client-credentials.html">simple online tool</a> for doing this.</p>
   </section>
   <section class="bcls-section">
     <h2 id="Summary_of_requests">Summary of requests</h2>
@@ -268,7 +268,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
 
 <hr>
 <div class="last-updated">
-  Page last updated on 03 Feb 2020
+  Page last updated on 27 Feb 2020
 </div>
 
 <footer class="bcls-footer" role="contentinfo">

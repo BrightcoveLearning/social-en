@@ -13,7 +13,7 @@ parent: General Information
   </section>
   <section class="bcls-section">
     <h2 id="rules">Determining the rendition to publish</h2>
-    <p>In order to distribute videos to a social platform, videos should have at least one MP4 rendition or a video master available. Videos uploaded using one of the Brightcove provided, standard ingest profiles will save a master by default. For more information on archiving masters, see the <a href="https://support.brightcove.com/archiving-masters">Archiving Masters</a> document.</p>
+    <p>In order to distribute videos to a social platform, videos should have at least one MP4 rendition or a video master available. Videos uploaded using one of the Brightcove provided, standard ingest profiles will save a master by default. For more information on archiving masters, see the <a href="https://apis.support.brightcove.com/ingest-profiles/guides/archiving-masters.html">Archiving Masters</a> document.</p>
     <p>When distributing videos to a social platform, Brightcove Social will attempt to distribute the highest quality rendition that meets the rules applied by the individual social platform. If the rendition sent to the social platform is rejected, there is no attempt to send another rendition.</p>
     <p>The rules to rank videos are as follows:</p>
     <ul>
@@ -51,7 +51,7 @@ parent: General Information
   </section>
   <section class="bcls-section">
     <h2 id="youtube">Setting video properties for YouTube</h2>
-    <p>By default, videos that are up to 15 minutes long can be uploaded to YouTube. For information on uploading longer videos, see <a href="https://support.brightcove.com/enabling-longer-videos-youtube">Enabling Longer Videos In YouTube</a>. After a video is published to YouTube, any updates to the source video in Studio will not update on the YouTube side.</p>
+    <p>By default, videos that are up to 15 minutes long can be uploaded to YouTube. For information on uploading longer videos, see <a href="https://studio.support.brightcove.com/general/enabling-longer-videos-youtube.html">Enabling Longer Videos In YouTube</a>. After a video is published to YouTube, any updates to the source video in Studio will not update on the YouTube side.</p>
     <p>When choosing a YouTube destination, the following video properties can be configured:</p>
     <ul>
       <li><a href="#ytthumb">Thumbnail Source</a></li>
@@ -109,7 +109,7 @@ parent: General Information
       <h3>Configuring the Captions properties</h3>
       <p>Click on the <strong>CAPTIONS</strong> link. Select the source for the captions:</p>
       <ul>
-        <li><strong>Use Video Cloud captions</strong> - Uses the captions associated with the video. For information on working with captions in Video Cloud, see <a href="https://support.brightcove.com/overview-adding-captions-video">Overview: Adding Captions to a Video</a>.</li>
+        <li><strong>Use Video Cloud captions</strong> - Uses the captions associated with the video. For information on working with captions in Video Cloud, see <a href="https://studio.support.brightcove.com/media/overview-adding-captions-video.html">Overview: Adding Captions to a Video</a>.</li>
         <li><strong>No captions</strong> - No captions will be sent to Facebook</li>
         <li><strong>Upload captions</strong> - Click <strong>Upload captions</strong> and browse and select a captions file. The captions file should be in .VTT or .SRT format. Select the caption <strong>Language</strong>, add a <strong>Label</strong> and select the <strong>Format</strong>. Click <strong>Add Caption File</strong>.</li>
       </ul>
@@ -189,7 +189,7 @@ parent: General Information
       <h3>Configuring the Captions properties</h3>
       <p>Click on the <strong>CAPTIONS</strong> link. Select the source for the captions:</p>
       <ul>
-        <li><strong>Use Video Cloud captions</strong> - Uses the captions associated with the video. For information on working with captions in Video Cloud, see <a href="https://support.brightcove.com/overview-adding-captions-video">Overview: Adding Captions to a Video</a>.
+        <li><strong>Use Video Cloud captions</strong> - Uses the captions associated with the video. For information on working with captions in Video Cloud, see <a href="https://studio.support.brightcove.com/media/overview-adding-captions-video.html">Overview: Adding Captions to a Video</a>.
           <p>For captions Facebook requires a <code class="notranslate">language</code>, which Social populates from the <code class="notranslate">language</code> on the text track, and a <code class="notranslate">name</code>, which Social populates from the <code class="notranslate">label</code> on the text track.</p>
           <p>Be aware that the <code class="notranslate">name</code> will be visible to viewers in the Facebook player via the 'Setting' menu and the 'Closed Captions' menu. We recommend that text track labels be set to something that will be meaningful to viewers. (For example, Labelling captions in different languages in those languages.)</p>
         </li>
@@ -303,7 +303,7 @@ parent: General Information
   </section>
   <section class="bcls-section">
     <h2 id="360">Publishing 360° videos</h2>
-    <p>Both YouTube, Facebook and the Brightcove Player support 360° video playback. When a 360° video is published to YouTube or Facebook using Brightcove Social, the video will playback in 360° mode. Note that there may be a delay while the 360° effect is processing. Before uploading 360° videos to Video Cloud, there are some things you must do. For information on working with 360° videos, see <a href="https://support.brightcove.com/working-360deg-videos">Working with 360° Videos</a>. Once your video has been uploaded, the process to publish 360° videos is the same as regular videos.</p>
+    <p>Both YouTube, Facebook and the Brightcove Player support 360° video playback. When a 360° video is published to YouTube or Facebook using Brightcove Social, the video will playback in 360° mode. Note that there may be a delay while the 360° effect is processing. Before uploading 360° videos to Video Cloud, there are some things you must do. For information on working with 360° videos, see <a href="https://studio.support.brightcove.com/general/working-360deg-videos.html">Working with 360° Videos</a>. Once your video has been uploaded, the process to publish 360° videos is the same as regular videos.</p>
     <aside class="bcls-aside bcls-aside--information">Note: Playback of 360° videos is limited to certain browsers.</aside>
     <aside class="bcls-aside bcls-aside--information">Note: When using the Social module to sync a 360° video, the ingest profile used to ingest the video must be configured to save the master file or the video won't sync in 360.</aside>
   </section>
