@@ -45,6 +45,8 @@
       url: /develop/overview-social-api.html
     - name: 'Quick Start: Social API'
       url: /develop/quick-start-social-api.html
+    - name: 'Social API Reference'
+      url: /develop/reference.html
     - name: 'Social API: Error Reference'
       url: /develop/social-api-error-reference.html
 - section:
