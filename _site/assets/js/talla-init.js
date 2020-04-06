@@ -10,7 +10,7 @@ var token =
     Talla.OptionAnonymous(true),
     Talla.OptionThemeColor('rgb(142, 33, 162)'),
     Talla.OptionDisplayName('Search Social Docs'),
-    Talla.OptionKnowledgeGroups(['24f32a0a-0993-4b01-9971-6161d9d19847']),
+    Talla.OptionKnowledgeGroups(['74aa7d9d-570e-4cdd-af29-c863cf464391']),
     Talla.OptionWideBeacon(true),
     Talla.OptionBeaconCTA("Search Social Docs"),
     Talla.OptionOpenIcon('https://learning-services-media.brightcove.com/doc-assets/site-assets/images/site/search.png'),
