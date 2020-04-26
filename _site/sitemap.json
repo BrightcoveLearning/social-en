@@ -95,6 +95,16 @@
   },
 
   {
+      "newURL": "https://social.support.brightcove.com/search-test.html",
+      "oldURL": "/search-test"
+  },
+
+  {
+      "newURL": "https://social.support.brightcove.com/search.html",
+      "oldURL": "/search"
+  },
+
+  {
       "newURL": "https://social.support.brightcove.com/general/setting-privacy-status-video.html",
       "oldURL": "/setting-privacy-status-video"
   },
