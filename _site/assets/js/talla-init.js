@@ -12,7 +12,7 @@ var token =
     Talla.OptionDisplayName('Search Social Docs'),
     Talla.OptionKnowledgeGroups(['74aa7d9d-570e-4cdd-af29-c863cf464391']),
     Talla.OptionWideBeacon(true),
-    Talla.OptionBeaconCTA("Search Social Docs"),
+    Talla.OptionBeaconCTA("Have a question?"),
     Talla.OptionOpenIcon('https://learning-services-media.brightcove.com/doc-assets/site-assets/images/site/search.png'),
     Talla.OptionBotIcon('https://learning-services-media.brightcove.com/doc-assets/site-assets/images/site/search.png'),
     Talla.OptionAutodetectSession,
