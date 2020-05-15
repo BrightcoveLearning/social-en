@@ -6,7 +6,7 @@ info:
   description: |-
     API for Brightcove Social
 
-    For additional in-depth guides to features of the API, see the **[Support Site](https://support.brightcove.com/social-api)**.
+    For additional in-depth guides to features of the API, see the **[General documentation](/develop/)**.
 
     **Base URL:** https://edge.social.api.brightcove.com/v1
   version: 1.0.0
@@ -456,7 +456,7 @@ components:
     BC_OAuth2:
       type: oauth2
       description: >-
-        Brightcove OAuth API. See the [support documentation](https://support.brightcove.com/oauth-api) or [Getting Access Tokens](https://support.brightcove.com/oauth-api-sample-get-access-token) to learn more
+        Brightcove OAuth API. See the [support documentation](https://apis.support.brightcove.com/oauth/) or [Getting Access Tokens](https://apis.support.brightcove.com/oauth/guides/getting-access-tokens.html) to learn more
       flows:
         clientCredentials:
           tokenUrl: 'https://oauth.brightcove.com/v4/access_token'
