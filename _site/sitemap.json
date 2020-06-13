@@ -5,6 +5,11 @@
   },
 
   {
+      "newURL": "https://social.support.brightcove.com/support/brightcove-answer.html",
+      "oldURL": "/brightcove-answer"
+  },
+
+  {
       "newURL": "https://social.support.brightcove.com/general/creating-social-media-publishing-destinations.html",
       "oldURL": "/creating-social-media-publishing-destinations"
   },
@@ -25,12 +30,7 @@
   },
 
   {
-      "newURL": "https://social.support.brightcove.com/get-started/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://social.support.brightcove.com/develop/",
+      "newURL": "https://social.support.brightcove.com/analytics/",
       "oldURL": "/index"
   },
 
@@ -40,7 +40,7 @@
   },
 
   {
-      "newURL": "https://social.support.brightcove.com/analytics/",
+      "newURL": "https://social.support.brightcove.com/develop/",
       "oldURL": "/index"
   },
 
@@ -51,6 +51,11 @@
 
   {
       "newURL": "https://social.support.brightcove.com/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://social.support.brightcove.com/get-started/",
       "oldURL": "/index"
   },
 
