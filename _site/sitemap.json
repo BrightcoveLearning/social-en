@@ -40,11 +40,6 @@
   },
 
   {
-      "newURL": "https://social.support.brightcove.com/general/",
-      "oldURL": "/index"
-  },
-
-  {
       "newURL": "https://social.support.brightcove.com/support/",
       "oldURL": "/index"
   },
@@ -56,6 +51,11 @@
 
   {
       "newURL": "https://social.support.brightcove.com/analytics/",
+      "oldURL": "/index"
+  },
+
+  {
+      "newURL": "https://social.support.brightcove.com/general/",
       "oldURL": "/index"
   },
 
