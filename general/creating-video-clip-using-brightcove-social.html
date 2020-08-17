@@ -20,9 +20,14 @@ parent: General Information
       <li class="language-editable">Open Brightcove Social.</li>
       <li class="language-editable">Click <strong>Videos</strong> in the left navigation. A list of videos in your Video Cloud account will display.</li>
       <li class="language-editable">Click on the video to create a clip from and then click <strong>Create Clip</strong>. The clip editor will open.
-        <aside class="bcls-aside bcls-aside--information">Note: In order to create a clip, the source video must have at least one MP4 rendition available. If the <strong>Create Clip</strong> button is disabled, the video may not have an MP4 rendition available.</aside>
-        <aside class="bcls-aside bcls-aside--information">Note: You cannot create a clip from another clip. If you selected a clipped video, the <strong>Create Clip</strong> button will be disabled.</aside>
-        <aside class="bcls-aside bcls-aside--information">Note: You cannot create a clip from a video that has DRM enabled (lock appears in the video thumbnail) and was transcoded using a legacy ingest profile. DRM enabled videos transcoded using a Dynamic Delivery ingest profile can be clipped. If a clip can't be created, the <strong>Create Clip</strong> button will be disabled.</aside>
+        <aside class="bcls-aside bcls-aside--information">
+          <ul>
+        <li>In order to create a clip, the source video must have at least one MP4 rendition available. If the <strong>Create Clip</strong> button is disabled, the video may not have an MP4 rendition available.</li>
+        <li>You cannot create a clip from another clip. If you selected a clipped video, the <strong>Create Clip</strong> button will be disabled.</li>
+        <li>You cannot create a clip from a video that has DRM enabled (lock appears in the video thumbnail) and was transcoded using a legacy ingest profile. DRM enabled videos transcoded using a Dynamic Delivery ingest profile can be clipped. If a clip can't be created, the <strong>Create Clip</strong> button will be disabled.</li>
+        <li>Videos with Closed Captions can be clipped via Social, but the resulting clipped video will not have captions. You will need to upload new captions to the clipped video, and Social will use those when publishing.</li>
+      </ul>
+      </aside>
         <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16672-create-clip.png" /></figure>
       </li>
       <li class="language-editable">Enter a <strong>Clip Name</strong>.</li>
