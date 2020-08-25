@@ -1,9 +1,9 @@
 - section:
   name: Home
-  url: /
+  url: /index.html
 - section:
   name: Getting Started
-  url: /get-started/
+  url: /get-started/index.html
   icon: '<i class="far fa-location-arrow"></i>'
   docs:
     - name: Getting Started with Audience
@@ -13,7 +13,7 @@
 - section:
   name: General Information
   icon: '<i class="far fa-info-circle"></i>'
-  url: /general/
+  url: /general/index.html
   docs:
     - name: Creating Publishing Destinations
       url: /general/creating-social-media-publishing-destinations.html
@@ -29,7 +29,7 @@
       url: /general/viewing-videos-published-social-media.html
 - section:
   name: Reviewing Analytics
-  url: /analytics/
+  url: /analytics/index.html
   docs:
     - name: Reviewing Social Analytics
       url: /analytics/reviewing-social-analytics.html
@@ -39,7 +39,7 @@
       url: /analytics/reviewing-social-views-analytics.html
 - section:
   name: Developers
-  url: /develop/
+  url: /develop/index.html
   docs:
     - name: 'Overview: Social API'
       url: /develop/overview-social-api.html
@@ -51,7 +51,7 @@
       url: /develop/social-api-error-reference.html
 - section:
   name: Support
-  url: /support/
+  url: /support/index.html
   docs:
     - name: 'Brightcove Answers'
       url: '/support/brightcove-answer.html'
