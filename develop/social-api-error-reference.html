@@ -19,37 +19,37 @@ parent: Developers
       <tbody class="bcls-table__body">
         <tr>
           <td>401</td>
-          <td><code class="notranslate">UNAUTHORIZED</code></td>
-          <td><code class="notranslate">Permission denied.</code></td>
+          <td><code translate="No">UNAUTHORIZED</code></td>
+          <td><code translate="No">Permission denied.</code></td>
           <td>Missing or invalid OAuth access token. If you did supply an access token, it may not have for the appropriate scope for this request</td>
         </tr>
         <tr>
           <td>403</td>
-          <td><code class="notranslate">FORBIDDEN</code></td>
+          <td><code translate="No">FORBIDDEN</code></td>
           <td>&nbsp;</td>
           <td>You do not have permission to access the resource. In most cases, you will have an error in the request URL.</td>
         </tr>
         <tr>
           <td>404</td>
-          <td><code class="notranslate">RESOURCE_NOT_FOUND</code></td>
-          <td><code class="notranslate">Resource does not exist.</code></td>
+          <td><code translate="No">RESOURCE_NOT_FOUND</code></td>
+          <td><code translate="No">Resource does not exist.</code></td>
           <td>You requested a resource that does not exist - check spelling and path errors.</td>
         </tr>
         <tr>
           <td>422</td>
           <td>&nbsp;</td>
-          <td><code class="notranslate">(Message varies according to the problem; examples: </code>
+          <td><code translate="No">(Message varies according to the problem; examples: </code>
             <ul>
-              <li><code class="notranslate">"Page size is not within the range(1-100) 200"</code></li>
-              <li><code class="notranslate">"The since parameter must be an ISO-8601 datetime string"</code></li>
+              <li><code translate="No">"Page size is not within the range(1-100) 200"</code></li>
+              <li><code translate="No">"The since parameter must be an ISO-8601 datetime string"</code></li>
             </ul>
-            <code class="notranslate"> )</code></td>
+            <code translate="No"> )</code></td>
           <td>Check query parameters to make sure the values are valid</td>
         </tr>
         <tr>
           <td>500</td>
           <td>&nbsp;</td>
-          <td><code class="notranslate">an internal error occurred</code></td>
+          <td><code translate="No">an internal error occurred</code></td>
           <td>Issue in Brightcove system - try again later.</td>
         </tr>
       </tbody>
@@ -57,7 +57,7 @@ parent: Developers
   </section>
   <section class="bcls-section">
     <h2 id="social_sharing_errors">Social sharing errors</h2>
-    <p>Social sharing errors are not returned as a separate error response to the API request, but rather in an <code class="notranslate">errors</code> array in the normal response.</p>
+    <p>Social sharing errors are not returned as a separate error response to the API request, but rather in an <code translate="No">errors</code> array in the normal response.</p>
     <p>If the sharing operation failed, the API will report <code translate="No">"result": "ERROR"</code> and return an error object containing the:</p>
     <ul>
       <li><code translate="No">error_code</code> - The error code returned recorded by the server, from the social platform, if any.</li>
