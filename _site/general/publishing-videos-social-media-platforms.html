@@ -339,8 +339,14 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       <li><a href="#ytvisibility">Visibility</a></li>
       <li><a href="#ytlicense">License</a></li>
     </ul>
-    <aside class="bcls-aside bcls-aside--information">Note: <a href="creating-social-media-publishing-destinations.html#youtube_defaults">Default video properties for YouTube</a> can be set by editing the destination.</aside>
-    <aside class="bcls-aside bcls-aside--information">Note: The YouTube API doesn't support disabling comments via their current API so there is no option to disable comments in the Social UI.</aside>
+    <aside class="bcls-aside bcls-aside--information">
+      Notes:
+      <ul>
+        <li><a href="creating-social-media-publishing-destinations.html#youtube_defaults">Default video properties for YouTube</a> can be set by editing the destination.</li>
+        <li>The YouTube API doesn't support disabling comments via their current API so there is no option to disable comments in the Social UI.</li>
+        <li>Avoid special characters in the name and description of the video: using "&lt;" or "&gt;" are known to cause failure, but other special characters may cause problems as well.</li>
+      </ul>
+    </aside>
     <div id="ytthumb" class="BCL-subsection">
       <h3>Configuring the thumbnail source</h3>
         <p>When posting to YouTube, the video thumbnail source can be set to:</p>
