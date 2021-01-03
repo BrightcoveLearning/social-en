@@ -4,7 +4,7 @@
 - section:
   name: Getting Started
   url: /get-started/index.html
-  icon: '<i class="far fa-location-arrow"></i>'
+  icon: '<img class="bcls-icon" src="/assets/images/feather/play.svg">'
   docs:
     - name: Getting Started with Audience
       url: /get-started/getting-started-brightcove-social.html
@@ -12,7 +12,7 @@
       url: /get-started/social-training-videos.html
 - section:
   name: General Information
-  icon: '<i class="far fa-info-circle"></i>'
+  icon: '<img class="bcls-icon" src="/assets/images/feather/info.svg">'
   url: /general/index.html
   docs:
     - name: Creating Publishing Destinations
