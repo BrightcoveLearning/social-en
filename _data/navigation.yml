@@ -6,7 +6,7 @@
   url: /get-started/index.html
   icon: '<img class="bcls-icon" src="/assets/images/feather/play.svg">'
   docs:
-    - name: Getting Started with Audience
+    - name: Getting Started with Social
       url: /get-started/getting-started-brightcove-social.html
     - name: Social Training Videos
       url: /get-started/social-training-videos.html
