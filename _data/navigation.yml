@@ -12,7 +12,7 @@
       url: /get-started/social-training-videos.html
 - section:
   name: General Information
-  icon: '<img class="bcls-icon" src="/assets/images/feather/info.svg">'
+  icon: '<i data-feather="info"></i>'
   url: /general/index.html
   docs:
     - name: Creating Publishing Destinations
