@@ -110,11 +110,6 @@
   },
 
   {
-      "newURL": "https://social.support.brightcove.com/search-test.html",
-      "oldURL": "/search-test"
-  },
-
-  {
       "newURL": "https://social.support.brightcove.com/search.html",
       "oldURL": "/search"
   },
