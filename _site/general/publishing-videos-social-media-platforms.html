@@ -347,8 +347,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       <li><a href="#ytvisibility">Visibility</a></li>
       <li><a href="#ytlicense">License</a></li>
     </ul>
-    <aside class="bcls-aside bcls-aside--information">
-      Notes:
+    <aside class="bcls-aside bcls-aside--information"> Notes:
       <ul>
         <li><a href="creating-social-media-publishing-destinations.html#youtube_defaults">Default video properties for YouTube</a> can be set by editing the destination.</li>
         <li>The YouTube API doesn't support disabling comments via their current API so there is no option to disable comments in the Social UI.</li>
@@ -357,7 +356,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
     </aside>
     <div id="ytthumb" class="BCL-subsection">
       <h3>Configuring the thumbnail source</h3>
-        <p>When posting to YouTube, the video thumbnail source can be set to:</p>
+      <p>When posting to YouTube, the video thumbnail source can be set to:</p>
       <ul>
         <li><strong>YouTube</strong> - YouTube will select a thumbnail</li>
         <li><strong>Video Cloud</strong> - Use the Video Cloud thumbnail image as the YouTube thumbnail</li>
@@ -484,14 +483,13 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
       <ul>
         <li><strong>Use Video Cloud captions</strong> - Uses the captions associated with the video. For information on working with captions in Video Cloud, see <a href="https://studio.support.brightcove.com/media/overview-adding-captions-video.html">Overview: Adding Captions to a Video</a>.
           <p>For captions Facebook requires a <code translate="No">language</code>, which Social populates from the <code translate="No">language</code> on the text track, and a <code translate="No">name</code>, which Social populates from the <code translate="No">label</code> on the text track.</p>
-          <p>Be aware that the <code translate="No">name</code> will be visible to viewers in the Facebook player via the 'Setting' menu and the 'Closed Captions' menu. We recommend that text track labels be set to something that will be meaningful to viewers. (For example, Labelling captions in different languages in those languages.)</p>
+          <p>Be aware that the <code translate="No">name</code> will be visible to viewers in the Facebook player via the 'Setting' menu and the 'Closed Captions' menu. We recommend that text track labels be set to something that will be meaningful to viewers. (For example, Labeling captions in different languages in those languages.)</p>
         </li>
         <li><strong>No captions</strong> - No captions will be sent to YouTube</li>
         <li><strong>Upload captions</strong> - Click <strong>Upload captions</strong> and browse and select a captions file. The captions file should be in .VTT or .SRT format. Select the caption <strong>Language</strong> and <strong>Format</strong>. Click <strong>Add Caption File</strong>.</li>
       </ul>
       <aside class="bcls-aside bcls-aside--information">Note: Facebook requires that the caption language include a country in addition to the language. e.g., en-US or en-UK. A language code of just a country code (i.e. 'us') will fail when syncing.</aside>
       <aside class="bcls-aside bcls-aside--information">Videos with Closed Captions can be clipped via Social, but the resulting clipped video will not have captions. You will need to upload new captions to the clipped video, and Social will use those when publishing.</aside>
-
       <figure class="bcls-figure"><img class="bcls-image--no-border" alt="" src="/assets/images/general/node16344-fb-captions-info.png" /></figure>
     </div>
     <div id="fbtarget" class="BCL-subsection">
@@ -571,6 +569,7 @@ function doGTranslate(lang_pair) {if(lang_pair.value)lang_pair=lang_pair.value;i
   <section class="bcls-section">
     <h2 id="download">Downloading videos</h2>
     <p>Brightcove Social provides the ability to copy the video URL or download a video source file. When downloading, the highest quality MP4 rendition will be downloaded. If there are no MP4 renditions, the <strong>Download</strong> link will be disabled.</p>
+    <p>It is important to understand that URLs for renditions and images are not fixed. Brightcove reconfigures the storage of media assets from time to time and when this happens, URLs for specific assets will change. If you are relying on hard-coded URLs to these assets, the links may break at some point. The best way to prevent links to media from breaking is to retrieve them from Video Cloud at runtime using the CMS API.</p>
     <aside class="bcls-aside bcls-aside--information">Note: You cannot download videos that have DRM enabled (lock appears in the video thumbnail). If you select a DRM enabled video, the <strong>Download</strong> button will be disabled.</aside>
     <p>Follow these steps to download a video.</p>
     <ol class="bcls-tasklist-restart">
