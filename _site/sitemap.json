@@ -30,6 +30,11 @@
   },
 
   {
+      "newURL": "https://social.support.brightcove.com/get-started/",
+      "oldURL": "/index"
+  },
+
+  {
       "newURL": "https://social.support.brightcove.com/develop/",
       "oldURL": "/index"
   },
@@ -45,17 +50,12 @@
   },
 
   {
-      "newURL": "https://social.support.brightcove.com/get-started/",
+      "newURL": "https://social.support.brightcove.com/",
       "oldURL": "/index"
   },
 
   {
       "newURL": "https://social.support.brightcove.com/analytics/",
-      "oldURL": "/index"
-  },
-
-  {
-      "newURL": "https://social.support.brightcove.com/",
       "oldURL": "/index"
   },
 
@@ -92,6 +92,11 @@
   {
       "newURL": "https://social.support.brightcove.com/support/register-training.html",
       "oldURL": "/register-training"
+  },
+
+  {
+      "newURL": "https://social.support.brightcove.com/support/reset-support-portal-password.html",
+      "oldURL": "/reset-support-portal-password"
   },
 
   {
